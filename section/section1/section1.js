@@ -2,9 +2,9 @@ q1 = "//";
 
 q2 = "var";
 
-q3 = `let country= "Japan" country= "America"`;
+q3 = `let country= "Japan"country = "America"`;
 
-q4 = `let Japan = {id=1,capital:"東京"} Japan["lang"]= "日本語"`;
+q4 = `const japan = {id: 1,capital:"東京"}japan.lang= "日本語"`;
 
 q5 = [2,5,6];
 
