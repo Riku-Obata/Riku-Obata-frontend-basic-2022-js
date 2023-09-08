@@ -4,7 +4,7 @@ q2 = 5;
 
 q3 = 4;
 
-q4 = 6;
+q4 = 1;
 
 q5 = 6;
 /*
@@ -28,8 +28,8 @@ q9 = true;
 
 q10 = true;
 
-q11 = true;
+q11 = false;
 
-q12 = true;
+q12 = false;
 
 module.exports = { q1, q2, q3, q4, q5, q6, q7, q8, q9, q10, q11, q12 };
