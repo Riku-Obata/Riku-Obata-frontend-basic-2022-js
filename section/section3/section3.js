@@ -20,16 +20,16 @@ q5 = 6;
 
 q6 = "!";
 
-q7 = "";
+q7 = "%";
 
-q8 = null;
+q8 = false;
 
-q9 = null;
+q9 = true;
 
-q10 = null;
+q10 = true;
 
-q11 = null;
+q11 = true;
 
-q12 = null;
+q12 = true;
 
 module.exports = { q1, q2, q3, q4, q5, q6, q7, q8, q9, q10, q11, q12 };
