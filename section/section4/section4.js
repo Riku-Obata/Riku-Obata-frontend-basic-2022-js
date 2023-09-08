@@ -1,5 +1,16 @@
-const echoDiv = null;
+function echoDiv (dividend, divisor) {
+  const quotient = Math.floor(dividend / divisor);
+  const remainder = dividend & divisor;
+  return "商: " + quotient + ", 余り: " + remainder;
 
-const reply = null;
+function reply(message) {
+  if(!message){
+    return "返信なし";
+  }
+  else{
+    return message;
+  }
+}
+    
 
 module.exports = { echoDiv, reply };
