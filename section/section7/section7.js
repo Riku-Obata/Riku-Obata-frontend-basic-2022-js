@@ -1,7 +1,7 @@
 const character = {
-  id = 1,
-  name ="スライム",
-　hp = 50
+  id:1,
+  name:"スライム",
+　hp:50
 };
 
 const addMP = (value) => {
@@ -9,12 +9,12 @@ const addMP = (value) => {
 };
 
 const updateHP = () => {
-  const updatedCharacter = (character.hp = -15);
+  const updatedCharacter = (character.hp -=15);
   return{...character, hp:updatedCharacter};
 };
 
 const LookUpName = () =>{
-  return ...character.name;
+  return character.name;
 };
 
 module.exports = { character, addMP, updateHP, LookUpName };
