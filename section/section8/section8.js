@@ -1,13 +1,49 @@
-const firstIndex = null;
-const countArrayLength = null;
+function firstIndex(array)  {
+  const firstItem = array[0];
+  return firstItem;
+};
 
-const extractArray = null;
+function countArrayLength(array) {
+ if (!Array.isArray(array)){
+   return "これは配列ではありません";
+ }else if (array.length === 0){
+   return "この配列は空配列です";
+ }else {
+   return "この配列は +array.length 個のデータを持っています";
+};
 
-const makeMark = null;
+function extractArray(array){
+  if (array.length >= 2){
+    if(array.length >= 3 {
+      return [array[1],array[2]];
+    } else if{
+      return [array[1]];
+    }
+  else{
+    return [];
+  }
+};
 
-const onlyString = null;
+function makeMark(mark,number) {
+  const result = [];
+  for (let i = 0; i < number; i++) {
+     result.push(mark);
+  }
+  return result
+};
 
-const addNumber = null;
+function onlyString(array) {
+  return array.filter((element) => typeof element === "string");
+};
+
+function addNumber(array) {
+  const NewArray =[];
+  for (let i=0; i<array.length; i++){
+    const Newstring = '${i+1}: array${i}';
+    Newarray.push(Newstring);
+  }
+  return NewArray;
+};
 
 module.exports = {
   firstIndex,
