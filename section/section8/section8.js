@@ -9,16 +9,17 @@ function countArrayLength(array) {
  }else if (array.length === 0){
    return "この配列は空配列です";
  }else {
-   return "この配列は +array.length 個のデータを持っています";
+   return "この配列は" +array.length+ "個のデータを持っています";
 };
 
 function extractArray(array){
   if (array.length >= 2){
     if(array.length >= 3 {
       return [array[1],array[2]];
-    } else if{
+    } else {
       return [array[1]];
     }
+  }
   else{
     return [];
   }
@@ -37,13 +38,13 @@ function onlyString(array) {
 };
 
 function addNumber(array) {
-  const NewArray =[];
-  for (let i=0; i<array.length; i++){
-    const Newstring = '${i+1}: array${i}';
-    Newarray.push(Newstring);
+  const newArray = [];
+  for(let i=0; i<array.length; i++) {
+    const newString = `${i+1}: ${array[i]}`;
+    newArray.push(newString);
   }
-  return NewArray;
-};
+  return newArray;
+}
 
 module.exports = {
   firstIndex,
